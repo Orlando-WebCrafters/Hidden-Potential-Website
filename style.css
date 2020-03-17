@@ -7,7 +7,6 @@ p {text-align: left;}
 body {
 	margin: 0;
 	padding: 0;
-	background: #333333 url(IMAGE) repeat-x;
 	text-align: justify;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -26,17 +25,16 @@ body {
 	height: 20vh;
 	margin-left:29px;
 	margin-right:21px;
-	background: url(header.png) no-repeat;
 }
 
 #page
 {
-  margin: 0 auto 0 auto; 
-  display: table; 
-  height: 100%;  
-  position: relative; 
-  overflow: hidden; 
-  background: rgb(0, 0, 0) url(background.png) repeat-y;
+  margin: 0 auto 0 auto;
+  display: table;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
   width: 100vw;
 }
 
@@ -128,7 +126,6 @@ color:rgb(0, 0, 0);
 	height:57px;
 	margin-left:29px;
 	margin-right:21px;
-	background: url(bar.png) no-repeat;
 }
 
 .menuLink
@@ -146,18 +143,12 @@ color:rgb(0, 0, 0);
 
 .menuLink a
 {
-	color:#192B33;
+	color:#A09897;
 }
 
 .menuLink a:hover
 {
-	color:rgb(118, 167, 175);
-}
-
-
-.menuLink:hover
-{
-	background: url(bar2.png) repeat-x;
+	color:rgb(255, 255, 255);
 }
 
 a

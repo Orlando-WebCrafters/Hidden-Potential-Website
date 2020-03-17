@@ -1,0 +1,142 @@
+* {
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: black;
+}
+
+#logo {
+    position:relative;
+    height: 20vh;
+    margin-left: 2%;
+}
+
+.title {
+    position:relative;
+    margin-left:3vw;
+    margin-top:4vh;
+    text-align:left;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 9vh;
+    font-weight:bold;
+    color: rgb(235, 69, 124);
+}
+
+.subText {
+    position:relative;
+    margin-left: 5%;
+    margin-top: 2vh;
+    text-align:left;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:2vh;
+    font-weight:bold;
+    color:#2D4E5B;
+}
+
+#bar {
+    position:relative;
+    height: 57px;
+    margin-left: 3%;
+}
+
+.menuLink {
+    height:3vh;
+    width: 8.5vw;
+    text-align:center;
+    float:left;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    font-size:2.5vh;
+    font-weight:bold;
+    color:#EAD5A8;
+    padding-top:3vh;
+}
+
+.menuLink a {
+    color:#A09897;
+}
+
+.menuLink a:hover {
+    color:rgb(255, 255, 255);
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron1 p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2em;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+.pageContent{
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 3vh;
+}
+
+.pageContent h1{
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+    color: white;
+    font-size: 4.5vw;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 12.8vw;
+    height: 3px;
+    background: #667A77;
+    margin-bottom: 3.2vw;
+}
+
+.section{
+    width: 48vw;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6vw;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+footer {
+    background-color: white;
+    font-size: 0.9vw;
+    padding: 1.6vw 0;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
