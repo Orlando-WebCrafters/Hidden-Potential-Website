@@ -7,7 +7,7 @@ body {
     font-weight: 300;
     background-color: black;
     background-image: linear-gradient(45deg, #000000 25%, #2e2626 25%, #2e2626 50%, #000000 50%, #000000 75%, #2e2626 75%, #2e2626 100%);
-    background-size: 17vh 10vw;
+    background-size: 60px 60px;
 }
 
 #logo {
