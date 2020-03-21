@@ -80,41 +80,6 @@ header .nav-bar {
     width: 100%;
 }
 
-.jumbotron1 {
-    display: flex;
-    align-items: center;
-    background-attachment: fixed;
-    background-color: black;
-    background-size: cover;
-    color: white;
-}
-
-.jumbotron1 p {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 2em;
-    color: white;
-    font-weight: 500;
-    font-size: 1.5vw;
-    font-family:Geneva, Arial, Helvetica, sans-serif;
-}
-
-.jumbotron1 ul {
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 2em;
-    color: white;
-    font-weight: 500;
-    font-size: 1.5vw;
-    font-family:Geneva, Arial, Helvetica, sans-serif;
-}
-
-.jumbotron1 ul li {
-    margin-bottom: 1.5em;
-}
-
 .pageContent{
     overflow: hidden;
     text-align: center;
@@ -142,20 +107,27 @@ header .nav-bar {
     margin-bottom: 3.2vw;
 }
 
-.section{
-    width: 48vw;
-    margin: auto;
-    color: white;
-    font-weight: 500;
-    font-size: 1.6vw;
-    font-family:Geneva, Arial, Helvetica, sans-serif;
-    text-align: justify;
-    height: 0;
-    overflow: hidden;
+.ps{
+    margin-bottom: 3.2vw;
 }
 
-.section:target{
-    height: auto;
+.ps a{
+    display: inline-block;
+    margin: 1.6vw 4vw;
+    width: 12.8vw;
+    height: 12.8vw;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.2s all;
+}
+
+.ps a:hover > img{
+    filter: none;
 }
 
 footer {
@@ -168,12 +140,4 @@ footer .row {
     display: flex;
     width: 100%;
     justify-content: center;
-}
-
-.portfolioImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20vw;
-    height: 60vh;
 }
