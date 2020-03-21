@@ -47,6 +47,52 @@
         </div>
     </section>
 
+    <div class="row text-center">
+        <p> Hidden Potential started as a labor of love by a classroom teacher and behavior analyst
+            who wanted to focus on meeting the individual needs of each child and their family by
+            utilizing a combined knowledge of educational practices and ABA. After more than 15 years
+            in the education system and 13 years as a Board Certified Behavior Analyst, our clinical director
+            has a unique perspective and diversified experience working with children with autism spectrum and
+            other developmental disabilities in various settings. Hidden Potential wants to create a plan to improve
+            the overall quality of your child’s life at home, in school, and as a part of their community. Let us help
+            you unlock the hidden potential inside your child!</p>
+
+        <img src="Graphics-Pictures/BorderIdea8.png" style="height: 20vh; width: 60vw;"/>
+        <br style = "line-height: 1vh;">
+        <img id="HomeImg" src="Graphics-Pictures/Service%202.jpg" alt="HomeImg" width=50%; height=auto;>
+        <br>
+        <img src="Graphics-Pictures/BorderIdea8.png" style="height: 20vh; width: 60vw;"/>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgHome">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('HomeImg');
+            var modalImg = document.getElementById("imgHome");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        </script>
+    </div>
+
 </div>
 
 <footer class="container">
