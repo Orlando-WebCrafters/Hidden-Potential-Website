@@ -84,9 +84,9 @@ header .nav-bar {
     display: flex;
     align-items: center;
     background-attachment: fixed;
-    background-color: black;
+    background-color: white;
     background-size: cover;
-    color: white;
+    color: black;
 }
 
 .jumbotron1 p {
@@ -94,7 +94,7 @@ header .nav-bar {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2em;
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
@@ -105,7 +105,7 @@ header .nav-bar {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2em;
-    color: white;
+    color: black;
     font-weight: 400;
     font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
@@ -114,14 +114,14 @@ header .nav-bar {
 .contact-section{
     overflow: hidden;
     text-align: center;
-    background: black;
+    background: white;
     padding: 6vw;
 }
 
 .contact-section h1{
     text-transform: uppercase;
     margin-bottom: 4.5vw;
-    color: white;
+    color: black;
     font-size: 4.5vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -139,7 +139,7 @@ header .nav-bar {
 .section{
     width: 48vw;
     margin: auto;
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 1.6vw;
     font-family: 'Roboto', sans-serif;
@@ -161,22 +161,22 @@ input {
     margin: 2vw 0;
     background: rgba(0,0,0,0);
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .in{
-    color: white;
+    color: black;
 }
 
 .form-control-submit{
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 6px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 footer {
-    background-color: white;
+    background-color: black;
     font-size: 0.9vw;
     padding: 1.6vw 0;
     font-family:Geneva, Arial, Helvetica, sans-serif;

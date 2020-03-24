@@ -92,7 +92,7 @@ header .nav-bar {
 .pageContent h1{
     text-transform: uppercase;
     margin-bottom: 4.5vw;
-    color: white;
+    color: black;
     font-size: 4.5vw;
     font-family:Geneva, Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -135,7 +135,7 @@ header .nav-bar {
     margin-bottom: 2.4vw;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 1.6vw;
     font-family: 'Roboto', sans-serif;
@@ -149,9 +149,9 @@ header .nav-bar {
     display: flex;
     align-items: center;
     background-attachment: fixed;
-    background-color: black;
+    background-color: white;
     background-size: cover;
-    color: white;
+    color: black;
 }
 
 .jumbotron1 p {
@@ -159,7 +159,7 @@ header .nav-bar {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 2em;
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 1.5vw;
     font-family:Geneva, Arial, Helvetica, sans-serif;
@@ -170,7 +170,7 @@ header .nav-bar {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 2em;
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 1.5vw;
     font-family:Geneva, Arial, Helvetica, sans-serif;
