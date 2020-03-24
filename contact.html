@@ -4,7 +4,7 @@
 <head>
     <title>Hidden Potential</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
 </head>
 
 <body>
@@ -27,9 +27,28 @@
     </div>
 </header>
 
-<div class="pageContent">
+<div class="contact-section">
+    <h1>Contact Us</h1>
+    <span class="border"></span>
 
+    <section class="jumbotron1">
+        <div class="container">
+            <div class="row text-center">
+                <p> Contact Us With Any Questions Or Comments </p>
+            </div>
+
+            <div class = "form">
+                <form id = "contact-form" method = "POST" action = "Contact.php">
+                    <input class="in" name = "name" type = "text" placeholder = "Name"/>
+                    <input class="in" name = "email" type = "email" placeholder = "Email"/>
+                    <input class="in" name = "message" type = "text" id = "msg" placeholder = "Message"/>
+                    <input type = "submit" class = "form-control-submit" value = "SEND MESSAGE"/>
+                </form>
+            </div>
+        </div>
+    </section>
 </div>
+
 
 <footer class="container">
     <div class="row">

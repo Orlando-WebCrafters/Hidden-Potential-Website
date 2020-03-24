@@ -1,0 +1,189 @@
+* {
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: black;
+    background-image: linear-gradient(45deg, #000000 25%, #2e2626 25%, #2e2626 50%, #000000 50%, #000000 75%, #2e2626 75%, #2e2626 100%);
+    background-size: 60px 60px;
+}
+
+#logo {
+    position:relative;
+    height: 20vh;
+    margin-left: 2%;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    height: 4vw;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 9vh;
+    font-weight:bold;
+    color: rgb(255, 0, 255);
+}
+
+.subText {
+    position:relative;
+    margin-left: 5%;
+    margin-top: 3vh;
+    text-align:left;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:2vh;
+    font-weight:bold;
+    color:#2D4E5B;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: transparent;
+    position: relative;
+}
+
+header li{
+    display: inline-block;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    display: block;
+}
+
+header li:hover{
+    background: gray;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 6vw;
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron1 p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron1 form {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-section{
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    padding: 6vw;
+}
+
+.contact-section h1{
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+    color: white;
+    font-size: 4.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 12.8vw;
+    height: 3px;
+    background: #667A77;
+    margin-bottom: 3.2vw;
+}
+
+.section{
+    width: 48vw;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.form {
+    max-width: 100vw;
+}
+
+input {
+    width: 100%;
+    margin: 2vw 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.in{
+    color: white;
+}
+
+.form-control-submit{
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    font-size: 0.9vw;
+    padding: 1.6vw 0;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
