@@ -73,7 +73,10 @@ header .nav-bar {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    margin-right: 6vw;
+    margin-right: 0vw;
+    position:absolute;
+    right:6vw;
+    top:10vh;
 }
 
 .container{
