@@ -11,17 +11,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1ZPUd7xvJQB6rgYS0cJXk5Slb6C" />
   <component name="ProjectViewState">
@@ -30,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -74,6 +70,8 @@
       <workItem from="1584926747453" duration="921000" />
       <workItem from="1585009975919" duration="5458000" />
       <workItem from="1585088325978" duration="497000" />
+      <workItem from="1587242587475" duration="605000" />
+      <workItem from="1590523646979" duration="2357000" />
     </task>
     <servers />
   </component>
@@ -85,5 +83,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="79" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1584748005344" />
+    <state x="343" y="200" key="run.anything.popup" timestamp="1590524146883">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="343" y="200" key="run.anything.popup/0.0.1368.872@0.0.1368.872" timestamp="1590524146883" />
   </component>
 </project>
