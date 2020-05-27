@@ -104,6 +104,10 @@ header .nav-bar {
     background: transparent;
 }
 
+.top {
+    margin-top: 2em;
+}
+
 .jumbotron1 ul {
     text-align: left;
     margin-left: 20%;
@@ -267,6 +271,18 @@ footer .row {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.inline1{
+    display: inline-block;
+}
+
+.inline2{
+    display: inline-block;
+}
+
+.block1{
+    display: block;
 }
 
 .portfolioImage{
